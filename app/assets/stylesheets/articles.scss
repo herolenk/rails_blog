@@ -7,11 +7,29 @@
 	background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
-	
+
 }
 body{
 	background: #FEAC5E;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+.headerh1{
+	margin: 30px;
+	color: maroon;
+}
+th{
+	color: rgba(31,49,79,1);
+	font-size: 20px;
+}
+td {
+	color: rgba(44,64,96,0.8);
+	font-size: 17px;
+}
+
+.btn-back{
+	width: 80%;
+	margin: 0 auto;
 }

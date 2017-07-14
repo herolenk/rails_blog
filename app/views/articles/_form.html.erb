@@ -13,19 +13,21 @@
       </ul>
     </div>
   <% end %>
- 
+ <div class="form-group">
   <p>
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: 'form-control' %>
   </p>
- 
+ </div>
+  <div class="form-group">
   <p>
     <%= f.label :text %><br>
-    <%= f.text_area :text %>
+    <%= f.text_area :text, class: 'form-control'%>
   </p>
- 
+ </div>
+  <div class="form-group">
   <p>
-    <%= f.submit %>
+    <%= f.submit%>
   </p>
- 
+ </div>
 <% end %>
