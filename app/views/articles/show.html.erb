@@ -1,3 +1,4 @@
+
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
@@ -9,12 +10,10 @@
 </p>
  
 <h2>Comments</h2>
-<% render @article.comments %>
- 
-
+<%= render @article.comments %>
  
 <h2>Add a comment:</h2>
-<% render 'comments/form'%>
+<%= render 'comments/form' %>
  
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
