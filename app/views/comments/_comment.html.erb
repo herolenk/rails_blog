@@ -1,15 +1,15 @@
-
-<p>
+ <div class="form-group">
+<p class="texxt">
   <strong>Commenter:</strong>
   <%= comment.commenter %>
 </p>
- 
-<p>
+</div> 
+<p class="texxt">
   <strong>Comment:</strong>
   <%= comment.body %>
 </p>
  
-<p>
+<p class="btn btn-warning">
   <%= link_to 'Destroy Comment', [comment.article, comment],
                method: :delete,
                data: { confirm: 'Are you sure?' } %>

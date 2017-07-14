@@ -19,17 +19,53 @@ body{
 .headerh1{
 	margin: 30px;
 	color: maroon;
+	font-weight: bold;
+}
+.headerh11{
+	margin: 26px;
+	color: maroon;
+	text-transform: capitalize;
 }
 th{
 	color: rgba(31,49,79,1);
 	font-size: 20px;
 }
-td {
+td,
+.texxt {
 	color: rgba(44,64,96,0.8);
 	font-size: 17px;
+	color: black;
 }
 
 .btn-back{
+	
+	margin: 0 auto;
+}
+.back{
 	width: 80%;
 	margin: 0 auto;
+}
+a:hover{
+	text-decoration:none;
+	color: red;
+}
+a{
+	color: #8e2931;
+	padding: 10px;
+	
+}
+.article{
+	text-align: center;
+	color: crimson;
+}
+
+.headers{
+	font-size: 40px;
+	text-align: center;
+}
+td{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 200px;
 }
